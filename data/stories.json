@@ -38,7 +38,7 @@
     "title": "Đông Cung",
     "description": "Chuyện tình bi thương giữa hoàng tử và công chúa nơi cung đình cổ đại.",
     "category": "Ngôn Tình - Cổ Đại",
-    "cover": "./assets/img/cover/dong-cung.png",
+    "cover": "./assets/img/cover/3.jpg",
     "chapters": {
       "chap1": [
         "./assets/img/dong-cung/chap1/p1.jpg"
@@ -54,7 +54,7 @@
     "title": "Bên Nhau Trọn Đời",
     "description": "Mối tình nhẹ nhàng, sâu lắng của hai con người trưởng thành giữa cuộc sống hiện đại.",
     "category": "Ngôn Tình - Hiện Đại",
-    "cover": "./assets/img/cover/ben-nhau-tron-doi.png",
+    "cover": "./assets/img/cover/4.jpg",
     "chapters": {
       "chap1": [
         "./assets/img/ben-nhau-tron-doi/chap1/p1.jpg"
@@ -67,7 +67,7 @@
     "title": "Thám Tử Lừng Danh Conan",
     "description": "Những vụ án bí ẩn đòi hỏi tư duy logic sắc bén và khả năng suy luận vượt trội.",
     "category": "Trinh Thám",
-    "cover": "./assets/img/cover/conan.png",
+    "cover": "./assets/img/cover/5.jpg",
     "chapters": {
       "chap1": [
         "./assets/img/conan/chap1/p1.jpg"
@@ -83,7 +83,7 @@
   "title": "HUST",
   "description": "Hành trình trở thành vua giải tích của chàng sinh viên Bách Khoa",
   "category": "Tiên Hiệp",
-  "cover": "",
+  "cover": "./assets/img/cover/6.jpg",
   "chapters": {}
  },
 
