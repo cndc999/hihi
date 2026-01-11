@@ -89,7 +89,7 @@
 
  "truyen1": {
   "id": "0002",
-  "title": "BK",
+  "title": "",
   "description": "1",
   "category": "Huyền Huyễn",
   "cover": "",
@@ -99,8 +99,8 @@
 
 "truyen2": {
   "id": "0003",
-  "title": "3",
-  "description": "3",
+  "title": "Hoa sữa về trong gió",
+  "description": "Bạn và tôi năm ấy giống như hoàng hôn, một tuổi trẻ ngông cuồng nhưng rồi lặn dần và tan biến vào hư vô cùng bao nhung nhớ.",
   "category": "Trinh Thám",
   "cover": "",
   "chapters":  {}
@@ -109,7 +109,7 @@
  "truyen3": {
   "id": "0004",
   "title": "Sử kí Lãng Yên",
-  "description": "Bị mắc kẹt ở xứ Lãng Yên, tôi trở thành người mạnh nhất",
+  "description": "Bị mắc kẹt ở xứ Lãng Yên, tôi trở thành người mạnh nhất.",
   "category": "Giả Tưởng",
   "cover": "",
   "chapters":  {}
@@ -118,7 +118,7 @@
  "truyen4": {
   "id": "0005",
   "title": "Mùa thu Hà Nội",
-  "description": "Phố năm ấy gọi là phố cũ, quán năm ấy gọi là quán quen, người năm ấy là người đã lỡ, tình năm ấy là tình dở dang...",
+  "description": "Phố năm ấy gọi là phố cũ, quán năm ấy gọi là quán quen, người năm ấy là người đã lỡ, tình năm ấy là tình dở dang.",
   "category": "Ngôn Tình - Hiện Đại",
   "cover": "",
   "chapters":  {}
@@ -127,7 +127,7 @@
  "truyen5": {
   "id": "0006",
   "title": "Hoàng Tử Nắng",
-  "description": "Ngôi sao trong thành phố, che lấp bởi ánh đèn lý giải tại sao nó không đành ló",
+  "description": "Ngôi sao trong thành phố, che lấp bởi ánh đèn lý giải tại sao nó không đành ló.",
   "category": "Giả tưởng",
   "cover": "",
   "chapters":  {}
@@ -135,8 +135,8 @@
  
  "truyen6": {
   "id": "0007",
-  "title": "Chạy đi em",
-  "description": "BTK",
+  "title": "Chạy đi em.",
+  "description": "Vào giữa mùa đông ảm đạm",
   "category": "Đời Thường",
   "cover": "",
   "chapters":  {}
@@ -145,7 +145,7 @@
  "truyen7": {
   "id": "0008",
   "title": "Anh",
-  "description": "Vì niềm tin là thứ thật xa xỉ",
+  "description": "Vì niềm tin là thứ thật xa xỉ.",
   "category": "Đời Thường",
   "cover": "",
   "chapters":  {}
@@ -154,7 +154,7 @@
  "truyen8": {
   "id": "0009",
   "title": "Sứ Thanh Hoa",
-  "description": "Hương thơm gỗ len lỏi qua cửa sổ, ta thấu hiểu cả nỗi tâm sự",
+  "description": "Hương thơm gỗ len lỏi qua cửa sổ, ta thấu hiểu cả nỗi tâm sự.",
   "category": "Tu Tiên",
   "cover": "",
   "chapters":  {}

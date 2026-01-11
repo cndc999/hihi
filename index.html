@@ -441,6 +441,28 @@
       color:#666;
       font-size:13px;
     }
+      .pager{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+  margin-top:12px;
+  flex-wrap:wrap;
+}
+.pager button{
+  min-width:36px;
+  height:34px;
+  border-radius:10px;
+  border:1px solid var(--line);
+  background:#fff;
+  font-weight:900;
+  cursor:pointer;
+}
+.pager button.active{
+  background: var(--brand2);
+  color:#fff;
+  border-color: var(--brand2);
+}
+
   </style>
 </head>
 
@@ -474,6 +496,8 @@
       </div>
 
       <div class="hot-grid" id="hotGrid"></div>
+      <div class="pager" id="hotPager"></div>
+
     </section>
 
     <section class="bottom">
