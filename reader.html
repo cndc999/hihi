@@ -378,6 +378,12 @@
         <div class="orn"></div>
 
         <section class="pages" id="pages"></section>
+        <div class="orn"></div>
+<div class="navline">
+  <button class="btn-green" id="btnPrevBottom">⬅ Chương trước</button>
+  <button class="btn-menu" id="btnMenuBottom" title="Chọn chương">≡</button>
+  <button class="btn-green" id="btnNextBottom">Chương tiếp ➡</button>
+</div>
       </article>
     </div>
   </main>
@@ -450,6 +456,9 @@
     const crumbChapter = document.getElementById("crumbChapter");
 
     const btnPrev = document.getElementById("btnPrev");
+    const btnPrevBottom = document.getElementById("btnPrevBottom");
+    const btnNextBottom = document.getElementById("btnNextBottom");
+    const btnMenuBottom = document.getElementById("btnMenuBottom");
     const btnNext = document.getElementById("btnNext");
     const btnMenu = document.getElementById("btnMenu");
     const dashOpen = document.getElementById("dashOpen");
@@ -494,6 +503,8 @@
       const idx = chapters.indexOf(currentChap);
       btnPrev.disabled = idx <= 0;
       btnNext.disabled = idx >= chapters.length - 1;
+      btnPrevBottom.disabled = idx <= 0;
+      btnNextBottom.disabled = idx >= chapters.length - 1;
       crumbChapter.textContent = chapLabel(currentChap);
       chapterTitleEl.textContent = chapLabel(currentChap);
       renderChapPanel();
@@ -507,7 +518,20 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    
+    // Sự kiện cho bộ nút dưới
+    btnPrevBottom.addEventListener("click", () => {
+      const idx = chapters.indexOf(currentChap);
+      if (idx > 0) goChapter(chapters[idx - 1]);
+    });
+
+    btnNextBottom.addEventListener("click", () => {
+      const idx = chapters.indexOf(currentChap);
+      if (idx < chapters.length - 1) goChapter(chapters[idx + 1]);
+    });
+
+    btnMenuBottom.addEventListener("click", () => {
+      togglePanel(!chapPanel.classList.contains("open"));
+    });
     btnPrev.addEventListener("click", () => {
       const idx = chapters.indexOf(currentChap);
       if (idx > 0) goChapter(chapters[idx - 1]);
