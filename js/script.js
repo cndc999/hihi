@@ -1,6 +1,6 @@
 let STORIES = {};
 let HOT_PAGE = 1;
-let HOT_PER_PAGE = 14;
+let HOT_PER_PAGE = 7;
 let HOT_Q = "";
 let HOT_CAT = "__all__";
 
